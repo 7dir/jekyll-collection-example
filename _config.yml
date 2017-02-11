@@ -1,0 +1,27 @@
+# Site settings
+title:
+description:
+url:
+
+# Jekyll Configuration
+encoding: UTF-8
+permalink: /:title/
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Custom Collections
+collections:
+  stuff:
+    output: true
+    permalink: /stuff/:path
+
+# File Handling
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
